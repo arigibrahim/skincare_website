@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skin care</title>
+    <link rel="stylesheet" type="text/css" href="style.css.css">
+  </head>
+  <body>
+    <header>
+     <div class="tm-container">
+    <div class="tm-row">
+      <!-- Site Header -->
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          <div class="tm-site-header">
+            <h1 class="tm-site-name">Skin Care</h1>
+          </div>
+      
+        <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href=#Home" class="tm-page-link ">
+                  <span>Home </span>
+                </a>
+              </li>
+          <li class="tm-page-nav-item">
+                <a href="#Haircare" class="tm-page-link">
+                  <span>Haircare</span>
+                </a>
+              </li>
+          
+          <li class="tm-page-nav-item">
+                <a href="#SkinCare" class="tm-page-link">
+                  <span>SkinCare</span>
+                </a>
+              </li>
+          <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link">
+                  <span>contact</span>
+                </a>
+              </li>
+<p> For more products..
+<a href = https://www.sephora.com/shop/skincare/> follow for more </a>
+</p>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="tm-right">
+        <main class="tm-main">
+ <h2>Welcome, Here you can find all your skincare and haircare product</h2>
+      <p>Let me help you </p>
+          <div id="Haircare" class="tm-page-content">
+            <!-- Haircare Menu Page -->
+            <nav class="tm-black-bg tm-drinks-nav">
+              <ul>
+                <li>
+                  <a href="#" class="tm-tab-link active" data-id="HairCare">Haircare</a>
+                </li>
+           
+            <div id="Haircare" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="shupen shampoo.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Shupen Shampoo <span class="tm-list-item-price">EGP 50</span>
+                  </div>
+                 <div id="Skincare" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="Olay eyecream.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Olay eyecream <span class="tm-list-item-price">EGP400</span>
+                  </div>
+                    <div id="Skincare" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="Whiting careem.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Whiting careem <span class="tm-list-item-price">EGP70</span>
+                  </div>
+                  <div id="Skincare" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="Hand careem.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Hand careem <span class="tm-list-item-price">EGP80</span>
+                  </div>
+        <div id="Skincare" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="Whiting careem.jpg" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Whiting Careem <span class="tm-list-item-price">EGP30</span>
+                  </div>
+      
+    </main>
+   <footer>
+  <p> Hope we can see you again,Thankyou for your vist.. </p>
+  <p>  You can easily  contact us at any time you like.. </p>   
+        </footer>  
+   <script>  alert ('Now you can make your purchases easily..')  </script>
+    <body onload="startTime()">
+
+<h2>Time Now</h2>
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+          
+  </body>
+</html>
+
